@@ -1,53 +1,88 @@
-=== Understrap ===
-Contributors: howarddc
-Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, theme-options, translation-ready
-Requires at least: 5.0
-Tested up to: 5.7.2
-Requires PHP: 5.2
-License: GNU General Public License v3 or later
-License URI: https://www.gnu.org/licenses/gpl-3.0.html
+# Kate's Embroidery WordPress Theme
 
-== Description ==
+Kate's Embroidery is a modern WordPress theme crafted for showcasing creative embroidery projects and handcrafted designs. Built with **Bootstrap**, **Underscores**, **webpack-cli**, and integrated with **WooCommerce**, this theme provides a responsive, versatile, and e-commerce-ready solution.
 
-The renowned WordPress starter theme framework that combines Underscores and Bootstrap. Trusted by more than 100,000 developers for building handcrafted, custom WordPress sites.
+## Features
 
-Website: [https://understrap.com](https://understrap.com)
+- **Responsive Design**: Optimized for all devices, offering a seamless browsing experience.
+- **WooCommerce Integration**: Full compatibility for creating an online store to sell embroidery products.
+- **Bootstrap Framework**: Provides modern layout options and ensures cross-browser consistency.
+- **Customizable Sections**: Easily modify layouts and styles to suit your brand.
+- **SEO-Friendly**: Structured with search engine optimization in mind.
+- **Translation-Ready**: Support for multilingual websites.
+- **Widget Areas**: Flexible widget-ready areas for adding dynamic content.
 
-Child Theme Project: [https://github.com/understrap/understrap-child](https://github.com/understrap/understrap-child)
+## Installation
 
-== Installation ==
+### Step 1: Download the Theme
+Download the `kates-theme.zip` file to your computer.
 
-1. In your admin panel, go to Appearance -> Themes and click the 'Add New' button.
-2. Type in Understrap in the search form and press the 'Enter' key on your keyboard.
-3. Click on the 'Activate' button to use your new theme right away.
-4. Do not edit the theme files directly. We recommend creating a child theme for custom development. Full developer documentation: [https://docs.understrap.com/](https://docs.understrap.com/)
+### Step 2: Install via WordPress Dashboard
+1. Go to your WordPress admin panel.
+2. Navigate to `Appearance > Themes`.
+3. Click `Add New` and then `Upload Theme`.
+4. Upload the `kates-theme.zip` file and click `Install Now`.
 
-== Privacy ==
+### Step 3: Activate the Theme
+After the installation, click `Activate` to apply the theme.
 
-Understrap does not collect any user data and does not use cookies.
+## WooCommerce Setup
 
-== Changelog ==
+1. **Install WooCommerce**:
+   - Go to `Plugins > Add New`.
+   - Search for "WooCommerce" and click `Install Now`, then `Activate`.
 
-See https://github.com/understrap/understrap/blob/main/.github/CHANGELOG.md
+2. **Configure WooCommerce**:
+   - Follow the setup wizard to configure your store settings, including payment methods, shipping, and products.
 
-== Copyright ==
+3. **Add Products**:
+   - Navigate to `Products > Add New` to start adding items for sale.
 
-Understrap WordPress Theme, 2021 Howard Development & Consulting, LLC
-Understrap is distributed under the terms of the GNU GPL.
+## Customization
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+1. **Theme Customizer**:
+   - Navigate to `Appearance > Customize` to adjust site settings:
+     - Header and footer design.
+     - Colors and typography.
+     - WooCommerce-specific options.
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
+2. **Page Builders**:
+   - Compatible with popular builders like Elementor and Gutenberg for creating custom layouts.
 
-This theme bundles the following third-party resources:
+3. **Custom CSS**:
+   - Add your own CSS styles under `Appearance > Customize > Additional CSS`.
 
-* Underscores: https://github.com/Automattic/_s/blob/master/LICENSE (GNU GPLv2)
-* Font Awesome: https://fontawesome.com/v4.7/license/ (Font: SIL OFL 1.1, (S)CSS: MIT)
-* Bootstrap: https://getbootstrap.com | https://github.com/twbs/bootstrap/blob/master/LICENSE (MIT)
-* WP Bootstrap Navwalker by Edward McIntyre & William Patton: https://github.com/wp-bootstrap/wp-bootstrap-navwalker (GNU GPLv3)
+## File Structure
+    kates-theme
+    ├── css/
+    │   ├── bootstrap.min.css          # Bootstrap framework styles
+    │   ├── theme-style.css           # Custom theme-specific styles
+    ├── js/
+    │   ├── bootstrap.bundle.min.js    # Bootstrap JavaScript library
+    │   ├── custom-scripts.js         # Custom JavaScript for additional features
+    ├── woocommerce/
+    │   ├── archive-product.php       # Custom WooCommerce product archive template
+    │   ├── content-single-product.php # Template for single product pages
+    ├── template-parts/
+    │   ├── header.php                # Header partial template
+    │   ├── footer.php                # Footer partial template
+    ├── page-templates/               # Page tamplates
+    │   ├── home-page.php             # Home page template
+    │   ├── contact-page.php          # Contact page template
+    │   ├── about-page.php            # About page template
+    ├── inc/
+    │   ├── customizer.php            # Theme customizer functions
+    │   ├── woocommerce-hooks.php     # WooCommerce-related hooks
+    ├── src/
+    │   ├── sass                # SCSS stylesheets
+    │       ├── theme.scss                # style file
+    ├── functions.php                 # Core theme functions
+    ├── style.css                     # Theme stylesheet with metadata
+    ├── index.php                     # Main theme template
+    ├── screenshot.png                # Theme preview image
+
+---
+
+**Author**: Alex Deliev  
+**License**: GNU General Public License v2.0  
+**Website**: [Kate's Embroidery](https://katesembroidery.com/)  
