@@ -1,60 +1,88 @@
+# Kate's Embroidery WordPress Theme
 
-<p align="center"><img src="https://understrap.com/wp-content/uploads/2022/02/Understrap_Logo_Color.svg" width="320" height="auto"></p>
+Kate's Embroidery is a modern WordPress theme crafted for showcasing creative embroidery projects and handcrafted designs. Built with **Bootstrap**, **Underscores**, **webpack-cli**, and integrated with **WooCommerce**, this theme provides a responsive, versatile, and e-commerce-ready solution.
 
-[![Wordpress Theme Version](https://img.shields.io/wordpress/theme/v/understrap.svg)](https://wordpress.org/themes/understrap)
-[![Wordpress Theme Active Installs](https://img.shields.io/wordpress/theme/installs/understrap.svg)](https://wordpress.org/themes/understrap/)
-[![Github Last Commit](https://img.shields.io/github/last-commit/understrap/understrap/develop)](https://github.com/understrap/understrap/commits/develop)
-[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+## Features
 
-#### See: [Official Demo](https://understrap.com) | Read: [Official Docs Page](https://docs.understrap.com/)
+- **Responsive Design**: Optimized for all devices, offering a seamless browsing experience.
+- **WooCommerce Integration**: Full compatibility for creating an online store to sell embroidery products.
+- **Bootstrap Framework**: Provides modern layout options and ensures cross-browser consistency.
+- **Customizable Sections**: Easily modify layouts and styles to suit your brand.
+- **SEO-Friendly**: Structured with search engine optimization in mind.
+- **Translation-Ready**: Support for multilingual websites.
+- **Widget Areas**: Flexible widget-ready areas for adding dynamic content.
 
-# Understrap WordPress Theme Framework
+## Installation
 
-Website: [understrap.com](https://understrap.com)
+### Step 1: Download the Theme
+Download the `kates-theme.zip` file to your computer.
 
-Child Theme Project: [github.com/understrap/understrap-child](https://github.com/understrap/understrap-child)
+### Step 2: Install via WordPress Dashboard
+1. Go to your WordPress admin panel.
+2. Navigate to `Appearance > Themes`.
+3. Click `Add New` and then `Upload Theme`.
+4. Upload the `kates-theme.zip` file and click `Install Now`.
 
-Premium Child Themes: [understrap.com/child-themes/](https://understrap.com/child-themes/)
+### Step 3: Activate the Theme
+After the installation, click `Activate` to apply the theme.
 
-## About
+## WooCommerce Setup
 
-Understrap is the renowned open-source WordPress starter theme that combines Underscores with Bootstrap. Trusted by more than 100,000 developers.
+1. **Install WooCommerce**:
+   - Go to `Plugins > Add New`.
+   - Search for "WooCommerce" and click `Install Now`, then `Activate`.
 
-## Documentation
+2. **Configure WooCommerce**:
+   - Follow the setup wizard to configure your store settings, including payment methods, shipping, and products.
 
-Full documentation for this theme is available at [docs.understrap.com](https://docs.understrap.com).
+3. **Add Products**:
+   - Navigate to `Products > Add New` to start adding items for sale.
 
-## Questions
+## Customization
 
-For support requests and bugs, we recommend browsing our [issues](https://github.com/understrap/understrap/issues) and opening a new issue if necessary. For more broad discussion, like questions about the roadmap, visit our [discussion board](https://github.com/understrap/understrap/discussions).
+1. **Theme Customizer**:
+   - Navigate to `Appearance > Customize` to adjust site settings:
+     - Header and footer design.
+     - Colors and typography.
+     - WooCommerce-specific options.
 
-## Changelog
-See [changelog](CHANGELOG.md)
+2. **Page Builders**:
+   - Compatible with popular builders like Elementor and Gutenberg for creating custom layouts.
 
-## Basic Features
+3. **Custom CSS**:
+   - Add your own CSS styles under `Appearance > Customize > Additional CSS`.
 
-- Combines Underscore’s PHP/JS files and Bootstrap’s HTML/CSS/JS.
-- Comes with Bootstrap (v4 and/or v5) Sass source files and additional .scss files. Nicely sorted and ready to add your own variables and customize the Bootstrap variables.
-- Uses a single minified CSS file for all the basic stuff.
-- [Font Awesome](http://fortawesome.github.io/Font-Awesome/) integration (v4.7.0)
-- Jetpack ready
-- WooCommerce support
-- Contact Form 7 support
-- [Child Theme](https://github.com/understrap/understrap-child) ready
-- Translation ready
+## File Structure
+    kates-theme
+    ├── css/
+    │   ├── bootstrap.min.css          # Bootstrap framework styles
+    │   ├── theme-style.css           # Custom theme-specific styles
+    ├── js/
+    │   ├── bootstrap.bundle.min.js    # Bootstrap JavaScript library
+    │   ├── custom-scripts.js         # Custom JavaScript for additional features
+    ├── woocommerce/
+    │   ├── archive-product.php       # Custom WooCommerce product archive template
+    │   ├── content-single-product.php # Template for single product pages
+    ├── template-parts/
+    │   ├── header.php                # Header partial template
+    │   ├── footer.php                # Footer partial template
+    ├── page-templates/               # Page tamplates
+    │   ├── home-page.php             # Home page template
+    │   ├── contact-page.php          # Contact page template
+    │   ├── about-page.php            # About page template
+    ├── inc/
+    │   ├── customizer.php            # Theme customizer functions
+    │   ├── woocommerce-hooks.php     # WooCommerce-related hooks
+    ├── src/
+    │   ├── sass                # SCSS stylesheets
+    │       ├── theme.scss                # style file
+    ├── functions.php                 # Core theme functions
+    ├── style.css                     # Theme stylesheet with metadata
+    ├── index.php                     # Main theme template
+    ├── screenshot.png                # Theme preview image
 
-## Understrap Academy
+---
 
-[Become an Understrap Expert.](https://www.understrapacademy.com) Presented by the team behind the Understrap Theme Framework, Understrap Academy is a collection of online courses that will help you speed up your development process, make your projects more profitable, and become an Understrap expert in record time.
-
-## License
-
-Copyright 2022 [Howard Development & Consulting, LLC](https://howarddc.com).
-Understrap is distributed under the terms of the GNU GPL version 3
-
-https://www.gnu.org/licenses/gpl-3.0.en.html
-
-## Credits
-- Font Awesome: https://fontawesome.com/v4.7/license/ (Font: SIL OFL 1.1, (S)CSS: MIT)
-- Bootstrap: https://getbootstrap.com | https://github.com/twbs/bootstrap/blob/main/LICENSE (MIT)
-- WP Bootstrap Navwalker by Edward McIntyre & William Patton: https://github.com/wp-bootstrap/wp-bootstrap-navwalker (GNU GPLv3)
+**Author**: Alex Deliev  
+**License**: GNU General Public License v2.0  
+**Website**: [Kate's Embroidery](https://katesembroidery.com/)  
