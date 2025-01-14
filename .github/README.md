@@ -1,3 +1,4 @@
+![screenshot](https://github.com/user-attachments/assets/7c723864-f606-4a09-af18-f7359e726173)
 # Kate's Embroidery WordPress Theme
 
 Kate's Embroidery is a modern WordPress theme crafted for showcasing creative embroidery projects and handcrafted designs. Built with **Bootstrap**, **Underscores**, **webpack-cli**, and integrated with **WooCommerce**, this theme provides a responsive, versatile, and e-commerce-ready solution.
