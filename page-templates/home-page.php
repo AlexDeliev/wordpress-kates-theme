@@ -27,6 +27,7 @@ if ( is_page_template( 'page-templates/no-title.php' ) ) {
 
 <div class="home-banner">
 	<div class="hero">	
+        <img class="bg-image" src="https://katesembroidery.com/wp-content/uploads/2026/01/banner.webp" alt="Hero Image">
 	</div>
 	<div class="desc-box">
 		<div>
